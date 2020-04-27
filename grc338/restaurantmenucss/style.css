@@ -8,7 +8,7 @@ body{
     font-family: sans-serif;
     color: #787D7D;
     text-transform: lowercase;
-    padding-bottom: 7em;
+    padding-bottom: 5em;
 }
 
 h1{
@@ -36,19 +36,19 @@ h3{
     padding-top: .8em;
     padding-bottom: .2em;
     margin-left: .2em;
-    margin-right:.6em;
+    margin-right:.8em;
 }
 
 h4{
     font-size: 1em;
     margin-left:.25em; 
-    margin-right:.6em;
+    margin-right:.8em;
 }
 
 p{
     font-size: 1em;
     margin-left: .25em;
-    margin-right: .6em;
+    margin-right: .8em;
 }
 
 ul{
