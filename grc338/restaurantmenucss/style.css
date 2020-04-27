@@ -12,16 +12,16 @@ body{
 }
 
 h1{
-    font-size: 4.1em;
+    font-size: 4em;
     color: #735D58;
     letter-spacing: .05em;
-    padding-top: 2em;
+    padding-top: 1.5em;
     text-align: center;
 
 }
 
 h2{
-    font-size: 2em;
+    font-size: 1.5em;
     letter-spacing: .05em;
     color: #735D58;
     text-align: center;
@@ -30,28 +30,30 @@ h2{
 
 
 h3{
-    font-size: 1.6em;
+    font-size: 1.3em;
     color: #A68D85;
     letter-spacing: .05em;
     padding-top: .8em;
     padding-bottom: .2em;
-    margin-left: .1em;
+    margin-left: .2em;
 }
 
 h4{
     font-size: 1em;
-    margin-left: .4em; 
+    margin-left:.3em; 
+    margin-right:.3em;
+    padding-left: .3em;
 }
 
 p{
     font-size: 1em;
     margin-left: .3em;
     margin-right: .3em;
+    padding-right: .3em;
 }
 
 ul{
     list-style: none;
-    font-size: 1.1em;
 }
 
 .price{
