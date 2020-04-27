@@ -34,21 +34,20 @@ h3{
     color: #A68D85;
     letter-spacing: .05em;
     padding-top: .8em;
-    padding-bottom: .2em;
-    margin-left: .2em;
-    margin-right:1em;
+    padding-bottom:.2em;
+    margin-left: 5%;
 }
 
 h4{
     font-size: 1em;
-    margin-left:.25em; 
-    margin-right:1em;
+    margin-left:.15%; 
+    margin-right:15%;
 }
 
 p{
     font-size: 1em;
-    margin-left: .25em;
-    margin-right: 1em;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 ul{
