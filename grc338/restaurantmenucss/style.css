@@ -12,7 +12,7 @@ body{
 }
 
 h1{
-    font-size: 4em;
+    font-size: 4.1em;
     color: #735D58;
     letter-spacing: .05em;
     padding-top: 2em;
@@ -21,31 +21,30 @@ h1{
 }
 
 h2{
-    font-size: 2.3em;
+    font-size: 2em;
     letter-spacing: .05em;
     color: #735D58;
     text-align: center;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
 
 h3{
-    font-size: 1.9em;
+    font-size: 1.6em;
     color: #A68D85;
     letter-spacing: .05em;
     padding-top: .8em;
     padding-bottom: .2em;
-    margin-left:.5em;
 }
 
 h4{
     font-size: 1em;
-    margin-left: 1em; 
+    margin-left: .4em; 
 }
 
 p{
     font-size: 1em;
-    margin-left: 1em;
+    margin-left: .4em;
 }
 
 ul{
