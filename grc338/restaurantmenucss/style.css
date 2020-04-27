@@ -15,17 +15,17 @@ h1{
     font-size: 4em;
     color: #735D58;
     letter-spacing: .05em;
-    padding-top: 1.5em;
+    padding-top: 1.4em;
     text-align: center;
 
 }
 
 h2{
-    font-size: 1.5em;
+    font-size: 1.6em;
     letter-spacing: .05em;
     color: #735D58;
     text-align: center;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.6em;
 }
 
 
@@ -40,16 +40,14 @@ h3{
 
 h4{
     font-size: 1em;
-    margin-left:.3em; 
-    margin-right:.3em;
-    padding-left: .3em;
+    margin-left:.25em; 
+    margin-right:.5em;
 }
 
 p{
     font-size: 1em;
-    margin-left: .3em;
-    margin-right: .3em;
-    padding-right: .3em;
+    margin-left: .25em;
+    margin-right: .5em;
 }
 
 ul{
