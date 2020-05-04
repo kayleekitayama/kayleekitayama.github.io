@@ -1,0 +1,124 @@
+/*CSS DOCUMENT*/
+
+body{
+    background-color:#F0F1F2;
+}
+
+div.container{
+    padding-top: 5.2em;
+    font-family: serif;
+    padding-bottom: 2em;
+    width: 75%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+div.intro{
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+h1{
+    font-size: 5.2em;
+    font-weight: 700;
+    color: #3A3E40;
+    text-align: center;    
+    font-style: bold;
+    width: 80%;
+    margin: auto;
+    padding-bottom: .3em;
+
+}
+
+
+h2{
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.4em;
+    font-style:italic;
+    color:#8C7B6C;
+}
+
+h2:before, 
+h2:after {
+  background-color:#8C7B6C;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+}
+
+h2:before {
+  right: 0.4em;
+  width: 5%;
+}
+
+h2:after {
+  left: 0.4em;
+  width: 5%;
+}
+
+div.introimage{
+    text-align: center; 
+    padding-top: 3em;
+    padding-bottom: 2.3em;
+}
+    
+img{
+    width: 80%
+}
+
+p{
+    align-content: center;
+    margin: auto;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 1.6em;
+    padding-bottom: 3em;
+    width: 70%;
+    color: #8C7B6C;
+    padding-bottom: 3em; 
+}
+
+
+h3{
+    font-size: 1.6em;
+    text-align: center;
+}
+
+
+div.ingredients{
+    padding-bottom: 3em;
+    align-items: center;
+    color:#3A3E40;
+    margin: auto;
+    font-size: 1.3em;
+    line-height: 1.6em;
+    width: 60%;
+}
+
+div.directions{
+    padding-bottom: 4em;
+    font-size: 1.3em;
+    line-height: 1.7em;
+    width: 80%;
+    align-items: center;
+    color:#3A3E40;
+    margin: auto;
+}
+
+h3{
+    font-size: 1.7em;
+    text-align: center;
+}
+
+h6{
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    color: #8C7B6C;
+    padding-top: 3em;
+
+}
