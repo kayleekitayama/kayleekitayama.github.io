@@ -1,0 +1,180 @@
+/*CSS DOC*/
+
+background {
+	background-color: #F2E9E9;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: montseratt, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	padding-bottom: 3.5em;
+}
+
+div.container {
+	text-align: center;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+nav a:hover,
+.clicked {
+	color: #F2CDC4;
+}
+
+ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	font-family: montseratt, sans-serif;
+	font-weight: 500;
+	font-size: .8em;
+	font-style: normal;
+	text-transform: lowercase;
+	letter-spacing: .05em;
+	display: inline;
+	padding: 2.2em;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #BF7E6F;
+}
+
+h1 {
+	width: 7.8em;
+	padding-top: 1.7em;
+	align-content: center;
+	display: inline-block;
+	padding-bottom: .5em;
+}
+
+h2 {
+	font-family: montserrat, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 1.5em;
+	display: inline;
+	text-align: center;
+	color: #592519;
+	text-transform: lowercase;
+}
+
+div.introimage {
+	padding-bottom: 1.6em;
+	padding-top: 1.6em;
+}
+
+div.aboutimage {
+	padding-bottom: 1.6em;
+	padding-top: 1.6em;
+}
+
+div.locationimage {
+	padding-bottom: 1.6em;
+	padding-top: 1.6em;
+}
+
+div.menuimage {
+	padding-top: 1.6em;
+	padding-bottom: 1.6em;
+}
+
+.menu {
+	text-align: left;
+}
+
+.sweets,
+.pies,
+.donuts,
+.savory,
+.beverages,
+.alc {
+	padding-left: 1.3em;
+	padding-right: 1.3em;
+	display: inline-block;
+}
+
+.menu p {
+	text-align: left;
+	padding-top: .2em;
+	padding-bottom: .2em;
+}
+
+.menu h2 {
+	font-size: 1.5em;
+	color: #592519;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+p.italic {
+	font-style: italic;
+	font-weight: 400;
+	padding-bottom: .7em;
+}
+
+h3 {
+	font-family: montseratt, sans-serif;
+	font-weight: 400;
+	font-size: .8em;
+	letter-spacing: .05em;
+	text-transform: lowercase;
+	font-style: normal;
+	color: #BF7E6F;
+	width: 85%;
+	display: inline-block;
+	padding-top: .5em;
+}
+
+h4 {
+	font-family: montseratt, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-transform: lowercase;
+	font-size: .7em;
+	width: 85%;
+	display: inline-block;
+	color: #0D0C0C;
+}
+
+p {
+	font-size: .7em;
+	padding: 1.4em;
+	text-align: center;
+	color: #261D1C;
+	line-height: 1.4em;
+	letter-spacing: .05em;
+}
+
+.location {
+	padding-top: 1.5em;
+}
+
+.location h3 {
+	line-height: 1em;
+	font-size: .9em;
+	text-transform: none;
+}
+
+.location h4 {
+	padding: 1.5em;
+	font-size: .8em;
+	color: #261D1C;
+	text-transform: none;
+}
