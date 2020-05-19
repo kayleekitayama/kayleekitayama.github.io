@@ -43,7 +43,7 @@ ul {
 nav ul li {
 	font-family: montseratt, sans-serif;
 	font-weight: 500;
-	font-size: .8em;
+	font-size: .85em;
 	font-style: normal;
 	text-transform: lowercase;
 	letter-spacing: .05em;
@@ -73,6 +73,10 @@ h2 {
 	text-align: center;
 	color: #592519;
 	text-transform: lowercase;
+}
+
+.about p{
+    text-align: left;
 }
 
 div.introimage {
@@ -129,10 +133,11 @@ p.italic {
 	padding-bottom: .7em;
 }
 
+
 h3 {
 	font-family: montseratt, sans-serif;
 	font-weight: 400;
-	font-size: .85em;
+	font-size: .8em;
 	letter-spacing: .05em;
 	text-transform: lowercase;
 	font-style: normal;
@@ -147,7 +152,7 @@ h4 {
 	font-weight: 400;
 	font-style: normal;
 	text-transform: lowercase;
-	font-size: .8em;
+	font-size: .75em;
 	width: 85%;
 	display: inline-block;
 	color: #0D0C0C;
@@ -155,8 +160,8 @@ h4 {
 
 p {
 	font-size: .75em;
-	padding: 1.4em;
-	text-align: center;
+	padding: 1.5em;
+    text-align: left;
 	color: #261D1C;
 	line-height: 1.4em;
 	letter-spacing: .05em;
@@ -172,9 +177,9 @@ p {
 	text-transform: none;
 }
 
-.location h4 {
+.location h4{
 	padding: 1.5em;
-	font-size: .8em;
-	color: #592519;
+	font-size: .75em;
+	color:#592519;
 	text-transform: none;
 }
