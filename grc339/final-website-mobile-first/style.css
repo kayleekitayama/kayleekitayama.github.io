@@ -67,6 +67,7 @@ nav ul li a {
 h2,
 h3 {
 	line-height: 1.4em;
+	text-transform: capitalize;
 }
 
 h2 {
@@ -106,8 +107,57 @@ p {
 footer {
 	font-weight: 300;
 	padding-top: 2em;
+	font-style: italic;
 }
 
 div.teasers {
 	padding-top: 1em;
+}
+
+input:nth-of-type(1):checked~main figure:nth-of-type(1),
+input:nth-of-type(2):checked~main figure:nth-of-type(2),
+input:nth-of-type(3):checked~main figure:nth-of-type(3),
+input:nth-of-type(4):checked~main figure:nth-of-type(4),
+input:nth-of-type(5):checked~main figure:nth-of-type(5),
+input:nth-of-type(6):checked~main figure:nth-of-type(6),
+input:nth-of-type(7):checked~main figure:nth-of-type(7),
+input:nth-of-type(8):checked~main figure:nth-of-type(8) {
+	opacity: 1;
+}
+
+main {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: calc(72% + 3em);
+}
+
+input {
+	display: none;
+}
+
+div.gallery nav {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 0.3em;
+	padding-top: .5em;
+}
+
+div.gallery figure {
+	margin: 0;
+	width: calc(100%-2em);
+	position: absolute;
+	opacity: 0;
+	transition: opacity .6s;
+	padding-top: 1.5em;
+}
+
+div.gallery figcaption {
+	margin: 1em 0;
+	text-transform: capitalize;
+}
+
+div.gallery p {
+	padding-top: 2em;
+	line-height: 1.7;
+	font-size: .9em;
 }
